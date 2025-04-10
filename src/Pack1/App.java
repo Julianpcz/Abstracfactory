@@ -15,7 +15,7 @@ public class App {
 		FabricaAbstracta fabricaREST = FabricaProductor.getFactory("REST");
 		IConexionREST cxRS1 = fabricaREST.getREST("COMPRAS");
 
-		cxRS1.leerURL("https://www.youtube.com/@segahardlight");
+		cxRS1.leerURL("https://www.opera.com/es/gx");
 	}
 
 }
